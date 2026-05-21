@@ -1,0 +1,130 @@
+# =========================
+# vim / editor temp files
+# =========================
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+.cproject
+.project
+.settings/
+
+# =========================
+# Tags for vim/global/ctags
+# =========================
+GPATH
+GRTAGS
+GTAGS
+tags
+
+# =========================
+# OAI build outputs
+# =========================
+cmake_targets/log/
+cmake_targets/*/build/
+cmake_targets/ran_build/
+cmake_targets/ran_build/build/
+cmake_targets/autotests/log/
+lte_build_oai/
+
+build/
+install/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# =========================
+# FlexRIC build outputs inside OAI
+# =========================
+openair2/E2AP/flexric/build/
+openair2/E2AP/flexric/cmake_targets/
+openair2/E2AP/flexric/CMakeFiles/
+openair2/E2AP/flexric/CMakeCache.txt
+openair2/E2AP/flexric/cmake_install.cmake
+openair2/E2AP/flexric/Makefile
+
+# =========================
+# compiled objects / libraries / binaries
+# =========================
+*.o
+*.so
+*.so.*
+*.a
+*.d
+*.out
+*.bin
+*.elf
+*.exe
+
+# =========================
+# logs and runtime outputs
+# =========================
+log/
+logs/
+result/
+results/
+output/
+outputs/
+
+*.log
+*.csv
+*.tsv
+*.jsonl
+
+# =========================
+# packet capture / trace / measurement files
+# =========================
+*.pcap
+*.pcapng
+*.tr
+*.trace
+
+# =========================
+# large compressed files
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.gz
+*.bz2
+*.xz
+*.rar
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# =========================
+# test / coverage outputs
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# OAI generated / misc
+# =========================
+nfapi_nr_interface_scf
